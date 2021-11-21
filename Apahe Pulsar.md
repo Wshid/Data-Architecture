@@ -24,6 +24,7 @@
     - 전체 클러스터에 걸쳐 200K의 파티션 제한 존재
     - Pulsar는 그런 제한이 존재하지 않음
     - 데이터가 broker내가 아닌, 외부적으로 [BookKeeper](https://bookkeeper.apache.org/)에 저장
+      - 실시간 워크로드에 최적화된 확장가능, 내결함성, 짧은 지연시간 스토리지 서비스
     - topic 확장에 제약이 없음
 
 ### Apache Zookeeper
@@ -102,3 +103,4 @@
 - https://pandio.com/blog/pulsar-vs-kafka/
 - https://digitalis.io/blog/technology/apache-kafka-vs-apache-pulsar/
 - https://www.confluent.io/kafka-vs-pulsar/
+- https://hskimsky.tistory.com/125
